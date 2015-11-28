@@ -4,7 +4,7 @@
   "description": "Retrieves random country names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/jackhinman/country-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mocha": "2.3.4"
   }
 }
